@@ -1,0 +1,5 @@
+D:\sync\data\work\Rene\SVN\trunk\core\Rene\bin\Debug\Rene.dll
+D:\sync\data\work\Rene\SVN\trunk\core\Rene\bin\Debug\Rene.pdb
+D:\sync\data\work\Rene\SVN\trunk\core\Rene\obj\Debug\ResolveAssemblyReference.cache
+D:\sync\data\work\Rene\SVN\trunk\core\Rene\obj\Debug\Rene.dll
+D:\sync\data\work\Rene\SVN\trunk\core\Rene\obj\Debug\Rene.pdb

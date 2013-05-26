@@ -1,0 +1,104 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:cc="clr-namespace:Rene.CustomControl;assembly=Rene"
+	xmlns:ccr="clr-namespace:ReneConsumer.CustomControl;assembly=ReneConsumer"
+    xmlns:ccv="clr-namespace:ReneConsumer.View;assembly=ReneConsumer"
+	xmlns:do="clr-namespace:ReneData.DataObject;assembly=ReneConsumer"
+	xmlns:m="clr-namespace:ReneConsumer.Model;assembly=ReneConsumer"
+    >
+
+	<Style TargetType="{x:Type ccv:UserWindowView}">
+		<Setter Property="Template">
+			<Setter.Value>
+				<ControlTemplate TargetType="{x:Type ccv:UserWindowView}">
+					<Border Background="White">
+						<Grid>
+							<Grid.RowDefinitions>
+								<RowDefinition Height="*"/>
+								<RowDefinition Height="Auto"/>
+							</Grid.RowDefinitions>
+
+							<StackPanel>
+								<StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+									<Button Content="_" Command="{x:Static ccv:UserWindowView.MinimiseCommand}"/>
+									<Button Content="[]" Command="{x:Static ccv:UserWindowView.MaximiseCommand}"/>
+									<Button Content="X" Command="{x:Static ccv:UserWindowView.CloseCommand}"/>
+								</StackPanel>
+								<StackPanel Orientation="Horizontal">
+									<TextBlock Text="First Name" Width="100"/>
+									<TextBox Text="{Binding Path=AddEdit.User.FirstName,UpdateSourceTrigger=PropertyChanged}"/>
+								</StackPanel>
+
+								<StackPanel Orientation="Horizontal">
+									<TextBlock Text="Last Name" Width="100"/>
+									<TextBox Text="{Binding Path=AddEdit.User.LastName,UpdateSourceTrigger=PropertyChanged}"/>
+								</StackPanel>
+
+								<StackPanel Orientation="Horizontal">
+									<TextBlock Text="User Name" Width="100"/>
+									<TextBox Text="{Binding Path=AddEdit.User.Username,UpdateSourceTrigger=PropertyChanged}"/>
+								</StackPanel>
+
+								<StackPanel Orientation="Horizontal">
+									<TextBlock Text="Password" Width="100"/>
+									<TextBox Text="{Binding Path=AddEdit.User.Password,UpdateSourceTrigger=PropertyChanged}"/>
+								</StackPanel>
+							</StackPanel>
+
+							<StackPanel Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Right">
+								<Button Content="Save" Command="{x:Static ccv:UserWindowView.SaveCommand}"/>
+								<Button Content="Cancel" Command="{x:Static ccv:UserWindowView.CloseCommand}"/>
+							</StackPanel>
+						</Grid>
+					</Border>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+	</Style>
+
+	<Style TargetType="{x:Type ccr:UserDataList}">
+		<Setter Property="Template">
+			<Setter.Value>
+				<ControlTemplate TargetType="{x:Type ccr:UserDataList}">
+					<Grid>
+						<Grid.RowDefinitions>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="10"/>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="10"/>
+							<RowDefinition Height="Auto"/>
+						</Grid.RowDefinitions>
+
+						<ListView 
+							x:Name="PART_List" 
+                            ItemsSource="{TemplateBinding ItemsSource}" 
+							SelectionMode="{TemplateBinding SelectionMode}">
+
+							<ListView.View>
+								<GridView>
+									<GridViewColumn x:Name="FirstName" Header="First Name" DisplayMemberBinding="{Binding Path=FirstName,UpdateSourceTrigger=PropertyChanged}" />
+									<GridViewColumn x:Name="LastName" Header="Last Name" DisplayMemberBinding="{Binding Path=LastName,UpdateSourceTrigger=PropertyChanged}" />
+									<GridViewColumn x:Name="Username" Header="Username" DisplayMemberBinding="{Binding Path=Username,UpdateSourceTrigger=PropertyChanged}" />
+									<GridViewColumn x:Name="Password" Header="Password" DisplayMemberBinding="{Binding Path=Password,UpdateSourceTrigger=PropertyChanged}" />
+									<GridViewColumn x:Name="Actions" Width="75" Header="Actions" CellTemplate="{DynamicResource UserDataListActions}"/>
+								</GridView>
+							</ListView.View>
+						</ListView>
+
+						<Button Grid.Row="2" Content="Add User" HorizontalAlignment="Right" Width="100" Command="{x:Static ccr:UserDataList.AddCommand}"/>
+						
+						<Button Grid.Row="4" Content="Upload File" HorizontalAlignment="Right" Width="100" Command="{x:Static ccr:UserDataList.UploadCommand}"/>
+					</Grid>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+	</Style>
+
+	<DataTemplate x:Key="UserDataListActions">
+		<StackPanel Orientation="Horizontal">
+			<Button Content="Edit" Command="{x:Static ccr:UserDataList.EditCommand}"/>
+			<Button Content="Delete" Command="{x:Static ccr:UserDataList.DeleteCommand}"/>
+		</StackPanel>
+	</DataTemplate>
+
+</ResourceDictionary>

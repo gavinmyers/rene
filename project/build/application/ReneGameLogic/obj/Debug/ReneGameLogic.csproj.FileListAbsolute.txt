@@ -1,0 +1,5 @@
+D:\sync\data\work\Rene\SVN\trunk\build\application\ReneGameLogic\bin\Debug\ReneGameLogic.dll
+D:\sync\data\work\Rene\SVN\trunk\build\application\ReneGameLogic\bin\Debug\ReneGameLogic.pdb
+D:\sync\data\work\Rene\SVN\trunk\build\application\ReneGameLogic\obj\Debug\ResolveAssemblyReference.cache
+D:\sync\data\work\Rene\SVN\trunk\build\application\ReneGameLogic\obj\Debug\ReneGameLogic.dll
+D:\sync\data\work\Rene\SVN\trunk\build\application\ReneGameLogic\obj\Debug\ReneGameLogic.pdb

@@ -1,0 +1,11 @@
+D:\sync\data\work\Rene\SVN\trunk\build\data\ReneData\obj\Debug\ResolveAssemblyReference.cache
+D:\sync\data\work\Rene\SVN\trunk\build\data\ReneData\bin\Debug\Data\Database.mdf
+D:\sync\data\work\Rene\SVN\trunk\build\data\ReneData\bin\Debug\Data\Database_log.LDF
+D:\sync\data\work\Rene\SVN\trunk\build\data\ReneData\bin\Debug\ReneData.dll
+D:\sync\data\work\Rene\SVN\trunk\build\data\ReneData\bin\Debug\ReneData.pdb
+D:\sync\data\work\Rene\SVN\trunk\build\data\ReneData\bin\Debug\Rene.dll
+D:\sync\data\work\Rene\SVN\trunk\build\data\ReneData\bin\Debug\ReneGameLogic.dll
+D:\sync\data\work\Rene\SVN\trunk\build\data\ReneData\bin\Debug\ReneGameLogic.pdb
+D:\sync\data\work\Rene\SVN\trunk\build\data\ReneData\bin\Debug\Rene.pdb
+D:\sync\data\work\Rene\SVN\trunk\build\data\ReneData\obj\Debug\ReneData.dll
+D:\sync\data\work\Rene\SVN\trunk\build\data\ReneData\obj\Debug\ReneData.pdb

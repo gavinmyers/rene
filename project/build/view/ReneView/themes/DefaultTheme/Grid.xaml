@@ -1,0 +1,21 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    >
+
+    <Style TargetType="{x:Type ListView}">
+        <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Disabled"/>
+    </Style>
+    
+    
+	<Style x:Key="GridBlur"  TargetType="{x:Type Grid}">
+		<Setter Property="Background" Value="{DynamicResource SlantedLines}"/>
+		<Setter Property="BitmapEffect">
+			<Setter.Value>
+				<BlurBitmapEffect/>
+			</Setter.Value>
+		</Setter>
+	</Style>
+
+	<Style x:Key="GridNoBlur"  TargetType="{x:Type Grid}">
+	</Style>
+</ResourceDictionary>

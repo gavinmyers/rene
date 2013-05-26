@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C# Express 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReneView", "view\ReneView\ReneView.csproj", "{99D27BBE-A97A-4142-A303-90A80CBAB636}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReneData", "data\ReneData\ReneData.csproj", "{E1C2482A-B199-4C27-A4A9-DA765C0A647E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReneConsumer", "application\ReneConsumer\ReneConsumer.csproj", "{85CD6106-A339-47A1-A79F-8361C0915386}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReneServer", "server\ReneServer\ReneServer.csproj", "{670C299F-577D-4305-8A04-E6CC203F1587}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReneClient", "application\ReneClient\ReneClient.csproj", "{E1AFF34F-C3B5-426D-892F-B095B55B01D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReneGameLogic", "application\ReneGameLogic\ReneGameLogic.csproj", "{DFFD2CC3-3F76-4D6B-84A2-C4B29B30588D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rene", "..\core\Rene\Rene.csproj", "{BA55925D-38EF-48B9-988F-AA1CE759C1A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99D27BBE-A97A-4142-A303-90A80CBAB636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99D27BBE-A97A-4142-A303-90A80CBAB636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99D27BBE-A97A-4142-A303-90A80CBAB636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99D27BBE-A97A-4142-A303-90A80CBAB636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1C2482A-B199-4C27-A4A9-DA765C0A647E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1C2482A-B199-4C27-A4A9-DA765C0A647E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1C2482A-B199-4C27-A4A9-DA765C0A647E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1C2482A-B199-4C27-A4A9-DA765C0A647E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85CD6106-A339-47A1-A79F-8361C0915386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85CD6106-A339-47A1-A79F-8361C0915386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85CD6106-A339-47A1-A79F-8361C0915386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85CD6106-A339-47A1-A79F-8361C0915386}.Release|Any CPU.Build.0 = Release|Any CPU
+		{670C299F-577D-4305-8A04-E6CC203F1587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{670C299F-577D-4305-8A04-E6CC203F1587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{670C299F-577D-4305-8A04-E6CC203F1587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{670C299F-577D-4305-8A04-E6CC203F1587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1AFF34F-C3B5-426D-892F-B095B55B01D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1AFF34F-C3B5-426D-892F-B095B55B01D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1AFF34F-C3B5-426D-892F-B095B55B01D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1AFF34F-C3B5-426D-892F-B095B55B01D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFFD2CC3-3F76-4D6B-84A2-C4B29B30588D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFFD2CC3-3F76-4D6B-84A2-C4B29B30588D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFFD2CC3-3F76-4D6B-84A2-C4B29B30588D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFFD2CC3-3F76-4D6B-84A2-C4B29B30588D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA55925D-38EF-48B9-988F-AA1CE759C1A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA55925D-38EF-48B9-988F-AA1CE759C1A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA55925D-38EF-48B9-988F-AA1CE759C1A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA55925D-38EF-48B9-988F-AA1CE759C1A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+D:\sync\data\work\Rene\SVN\trunk\build\application\ReneClient\bin\Debug\ApplicationInformation.xml
+D:\sync\data\work\Rene\SVN\trunk\build\application\ReneClient\bin\Debug\ReneClient.exe.config
+D:\sync\data\work\Rene\SVN\trunk\build\application\ReneClient\bin\Debug\ReneClient.exe
+D:\sync\data\work\Rene\SVN\trunk\build\application\ReneClient\bin\Debug\ReneClient.pdb
+D:\sync\data\work\Rene\SVN\trunk\build\application\ReneClient\obj\Debug\ResolveAssemblyReference.cache
+D:\sync\data\work\Rene\SVN\trunk\build\application\ReneClient\obj\Debug\Window1.baml
+D:\sync\data\work\Rene\SVN\trunk\build\application\ReneClient\obj\Debug\Window1.g.cs
+D:\sync\data\work\Rene\SVN\trunk\build\application\ReneClient\obj\Debug\App.g.cs
+D:\sync\data\work\Rene\SVN\trunk\build\application\ReneClient\obj\Debug\ReneClient_MarkupCompile.cache
+D:\sync\data\work\Rene\SVN\trunk\build\application\ReneClient\obj\Debug\ReneClient.g.resources
+D:\sync\data\work\Rene\SVN\trunk\build\application\ReneClient\obj\Debug\ReneClient.Properties.Resources.resources
+D:\sync\data\work\Rene\SVN\trunk\build\application\ReneClient\obj\Debug\ReneClient.csproj.GenerateResource.Cache
+D:\sync\data\work\Rene\SVN\trunk\build\application\ReneClient\obj\Debug\ReneClient.exe
+D:\sync\data\work\Rene\SVN\trunk\build\application\ReneClient\obj\Debug\ReneClient.pdb

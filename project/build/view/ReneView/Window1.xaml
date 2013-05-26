@@ -1,0 +1,9 @@
+﻿<ccv:WindowView x:Class="ReneView.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:ccv="clr-namespace:ReneConsumer.View;assembly=ReneConsumer"
+    xmlns:ccr="clr-namespace:ReneConsumer.CustomControl;assembly=ReneConsumer"
+	Width="0" Height="0"
+    Title="Window1">
+	
+</ccv:WindowView>

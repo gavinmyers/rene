@@ -1,0 +1,14 @@
+D:\sync\data\work\Rene\SVN\trunk\build\application\ReneConsumer\obj\Debug\ResolveAssemblyReference.cache
+D:\sync\data\work\Rene\SVN\trunk\build\application\ReneConsumer\bin\Debug\Data\Database.mdf
+D:\sync\data\work\Rene\SVN\trunk\build\application\ReneConsumer\bin\Debug\Data\Database_log.LDF
+D:\sync\data\work\Rene\SVN\trunk\build\application\ReneConsumer\bin\Debug\ReneConsumer.dll
+D:\sync\data\work\Rene\SVN\trunk\build\application\ReneConsumer\bin\Debug\ReneConsumer.pdb
+D:\sync\data\work\Rene\SVN\trunk\build\application\ReneConsumer\bin\Debug\3DTools.dll
+D:\sync\data\work\Rene\SVN\trunk\build\application\ReneConsumer\bin\Debug\Rene.dll
+D:\sync\data\work\Rene\SVN\trunk\build\application\ReneConsumer\bin\Debug\ReneData.dll
+D:\sync\data\work\Rene\SVN\trunk\build\application\ReneConsumer\bin\Debug\ReneGameLogic.dll
+D:\sync\data\work\Rene\SVN\trunk\build\application\ReneConsumer\bin\Debug\ReneGameLogic.pdb
+D:\sync\data\work\Rene\SVN\trunk\build\application\ReneConsumer\bin\Debug\Rene.pdb
+D:\sync\data\work\Rene\SVN\trunk\build\application\ReneConsumer\bin\Debug\ReneData.pdb
+D:\sync\data\work\Rene\SVN\trunk\build\application\ReneConsumer\obj\Debug\ReneConsumer.dll
+D:\sync\data\work\Rene\SVN\trunk\build\application\ReneConsumer\obj\Debug\ReneConsumer.pdb

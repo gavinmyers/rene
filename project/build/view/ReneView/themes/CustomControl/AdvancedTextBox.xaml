@@ -1,0 +1,39 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:cc="clr-namespace:Rene.CustomControl;assembly=Rene"
+    >
+
+
+	<Style TargetType="{x:Type cc:AdvancedTextBox}">
+		<Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+		<Setter Property="Template">
+			<Setter.Value>
+				<ControlTemplate TargetType="{x:Type cc:AdvancedTextBox}">
+					<Border x:Name="border" Width="{TemplateBinding Width}" HorizontalAlignment="Center" VerticalAlignment="Center">
+						<Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+							<ScrollViewer 
+								HorizontalAlignment="Center" 
+								x:Name="PART_ContentHost"/>
+							<TextBlock 
+								HorizontalAlignment="Center" 
+								x:Name="blur" 
+								Text="{Binding Path=BlurText, UpdateSourceTrigger=PropertyChanged,RelativeSource={RelativeSource TemplatedParent}}" 
+								Style="{DynamicResource TextBlockBlur}"/>
+						</Grid>
+					</Border>
+					<ControlTemplate.Triggers>
+						<Trigger Property="IsFocused" Value="True">
+							<Setter Property="Background" TargetName="border" Value="#FFE1E1E1"/>
+						</Trigger>
+						<Trigger Property="IsBlur" Value="False">
+							<Setter Property="Visibility" TargetName="blur" Value="Collapsed"/>
+						</Trigger>
+						<Trigger Property="IsEnabled" Value="false">
+							<Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+						</Trigger>
+					</ControlTemplate.Triggers>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+	</Style>
+</ResourceDictionary>
